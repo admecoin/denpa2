@@ -1,0 +1,35 @@
+{
+    "name": "denpaw/php-playcoinrpc",
+    "type": "library",
+    "description": "Playcoin JSON-RPC client based on GuzzleHttp",
+    "keywords": ["playcoin","api","jsonrpc","guzzle"],
+    "homepage": "https://github.com/denpawmusic/php-playcoinrpc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Paavilainen",
+            "email": "denpaw@netfleet.space",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.5 | ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0 | ^8.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Denpaw\\Playcoin\\": "src"
+        },
+        "files" : [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "Denpaw\\Playcoin\\Tests\\": "tests"
+        }
+    }
+}

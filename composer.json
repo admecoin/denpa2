@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Playcoin JSON-RPC client based on GuzzleHttp",
     "keywords": ["playcoin","api","jsonrpc","guzzle"],
-    "homepage": "https://github.com/denpawmusic/php-playcoinrpc",
+    "homepage": "https://github.com/admecoin/denpa2",
     "license": "MIT",
     "authors": [
         {
